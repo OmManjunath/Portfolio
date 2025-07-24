@@ -1760,12 +1760,12 @@ float:left;
 width:17px;
 height:44px;
 overflow:hidden;
-background-image:url("../digit-sep-svg.svg");
+background-image:url("digit-sep-svg.svg");
 background-repeat:no-repeat;
 background-position:0 0;
 background-color:#4054b2}
 /* Styles for .digit */
-[data-element_type="eae-evergreen-timer.skin4"] .digit{background-image:url("../digits-svg-alpha.svg");
+[data-element_type="eae-evergreen-timer.skin4"] .digit{background-image:url("digits-svg-alpha.svg");
 background-color:#4054b2}
 /* Styles for .eae-ct-wrapper */
 .eae-ct-wrapper *{box-sizing:border-box;
