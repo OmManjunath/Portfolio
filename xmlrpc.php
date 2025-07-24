@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://dachhu7.github.io</homePageLink>
+		<homePageLink>https://dachhu7.github.io/Om_Manjunath_Interiors</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="https://dachhu7.github.io/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://dachhu7.github.io/Om_Manjunath_Interiors/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/Om_Manjunath_Interiors/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/Om_Manjunath_Interiors/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/Om_Manjunath_Interiors/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/Om_Manjunath_Interiors/wp-json/" />
 			</apis>
 	</service>
 </rsd>
