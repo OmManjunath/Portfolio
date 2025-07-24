@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://imlystudio.com</homePageLink>
+		<homePageLink>https://dachhu7.github.io</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="https://imlystudio.com/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://imlystudio.com/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://imlystudio.com/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="https://imlystudio.com/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://imlystudio.com/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://dachhu7.github.io/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://dachhu7.github.io/wp-json/" />
 			</apis>
 	</service>
 </rsd>
