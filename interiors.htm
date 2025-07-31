@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US" prefix="og: https://ogp.me/ns#">
 
 <head>
@@ -126,9 +126,6 @@ body {
 
 <body class="wp-singular page-template-default page page-id-331 wp-embed-responsive wp-theme-hello-elementor jkit-color-scheme hello-elementor-default elementor-default elementor-kit-14 elementor-page elementor-page-331">
 
-	
-			<a class="skip-link screen-reader-text" href="#content">
-			Skip to content		</a>
 
 
 			<!-- ✅ ULTRA-MODERN FIXED NAVBAR -->
@@ -194,25 +191,6 @@ body {
   height: 100px;
 }
 
-/* Fixed Glass Navbar */
-.fixed-navbar {
-  position: fixed;
-  top: 20px;
-  left: 0;
-  width: 100%;
-  background: linear-gradient(145deg, #1f1e1fa1, #22212274);
-  backdrop-filter: blur(20px);
-  z-index: 9999;
-  padding: 5px 32px;
-  border-radius: 20px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: top 0.3s;
-}
-
 /* Basic dropdown styles for navbar */
 .navbar-menu ul.menu {
   list-style: none;
@@ -260,6 +238,25 @@ body {
 
 .navbar-menu .dropdown a:hover {
   background: #f1e4d2;
+}
+
+/* Fixed Glass Navbar */
+.fixed-navbar {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(145deg, #1f1e1fa1, #22212274);
+  backdrop-filter: blur(20px);
+  z-index: 9999;
+  padding: 5px 32px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: top 0.3s;
 }
 
 .navbar-logo {
@@ -512,439 +509,268 @@ document.querySelectorAll('.dropdown-toggle').forEach(item => {
 				</div>
 			</div>
 
-<style>
-.kitchen-products {
-  padding: 3rem 1rem;
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  align-items: center;
-}
-
-.product-box {
-  display: flex;
-  background: #fff8f0;
-  border-radius: 30px;
-  padding: 4rem;
-  max-width: 1100px;
-  width: 100%;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
-}
-
-.product-image {
-  opacity: 0;
-  transform: translateX(-60px);
-  transition: all 3s ease;
-}
-
-.product-info {
-  flex: 1;
-  min-width: 280px;
-  opacity: 0;
-  transform: translateX(60px);
-  transition: all 3s ease;
-}
-
-.product-info h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #2e2e2e;
-  margin-bottom: 1rem;
-  letter-spacing: -0.5px;
-}
-
-.product-info h2 span {
-  font-weight: 400;
-  color: #888;
-  font-size: 1.2rem;
-}
-
-.product-info p {
-  font-size: 1.1rem;
-  color: #444;
-  line-height: 1.8;
-  margin-bottom: 1.2rem;
-}
-
-.product-info ul {
-  padding-left: 1.2rem;
-  margin-bottom: 1.2rem;
-}
-
-.product-info li {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 0.5rem;
-}
-
-.tagline {
-  font-size: 1.3rem;
-  font-weight: 700;
-  display: inline-block;
-  margin-top: 0.5rem;
-  background: linear-gradient(135deg, #af8750, #926b3f);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  animation: floatTagline 3s ease-in-out infinite;
-}
-
-@keyframes floatTagline {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
-}
-
-.product-buttons {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.product-btn {
-  padding: 0.6rem 1.5rem;
-  background-color: #c1905b;
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  border-radius: 25px;
-  transition: background 0.3s ease;
-}
-
-.product-btn:hover {
-  background-color: #a87540;
-}
-
-.product-image img {
-  width: 400px;
-  max-width: 100%;
-  border-radius: 25px;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.kitchen-intro {
-  text-align: center;
-  max-width: 900px;
-  animation: fadeInWardrobeIntro 1.2s ease-in-out both;
-}
-
-.kitchen-intro h3 {
-  font-size: 3rem;
-  font-weight: 900;
-  letter-spacing: 1.5px;
-  background: linear-gradient(90deg, #af8750, #926b3f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-}
 
 
-.kitchen-intro h4 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #5a3e20;
-  margin-bottom: 1.5rem;
-  letter-spacing: 0.5px;
-}
-
-.kitchen-intro p {
-  font-size: 1.3rem;
-  line-height: 1.9;
-  color: #333;
-  margin-bottom: 1.2rem;
-  font-weight: 400;
-}
-
-.kitchen-intro strong {
-  color: #af8750;
-  font-weight: 700;
-}
-
-@keyframes fadeInIntro {
-  0% { opacity: 0; transform: translateY(40px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
-
-.show-slide {
-  opacity: 1 !important;
-  transform: translateX(0) !important;
-}
-</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
 
 <style>
-.wardrobe-section {
-  background: linear-gradient(145deg, #f5f5f5, #ffffff);
-  padding: 4rem 1rem;
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3rem;
-  overflow: hidden;
-}
+  .interiors-section {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+  }
 
-.wardrobe-intro {
-  text-align: center;
-  max-width: 900px;
-  animation: fadeInWardrobeIntro 1.2s ease-in-out both;
-}
+  .interiors-intro {
+    text-align: center;
+    max-width: 920px;
+    margin-bottom: 60px;
+    animation: fadeInUp 1s ease both;
+  }
 
-.wardrobe-intro h3 {
-  font-size: 2.8rem;
-  font-weight: 900;
-  background: linear-gradient(90deg, #af8750, #926b3f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-}
+  .interiors-intro h3 {
+    font-size: clamp(2.2rem, 5vw, 3rem);
+    background: linear-gradient(90deg, #af8750, #926b3f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
 
-.wardrobe-intro h4 {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #5a3e20;
-  margin-bottom: 1rem;
-}
+  .interiors-intro h4 {
+    font-size: 1.6rem;
+    color: #5a3e20;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
 
-.wardrobe-intro p {
-  font-size: 1.2rem;
-  color: #333;
-  line-height: 1.9;
-  margin-bottom: 0.8rem;
-}
+  .interiors-intro p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #3e3e3e;
+    margin-bottom: 10px;
+  }
 
-.wardrobe-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2.5rem;
-  width: 100%;
-  max-width: 1200px;
-}
+  .interiors-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+  }
 
-.wardrobe-card {
-  background: rgba(255, 255, 255, 0.75);
-  border-radius: 20px;
-  backdrop-filter: blur(12px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-  overflow: hidden;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  display: flex;
-  flex-direction: column;
-}
+  @media (max-width: 992px) {
+    .interiors-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 
-.wardrobe-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
-}
+  @media (max-width: 600px) {
+    .interiors-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 
-.wardrobe-image img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-bottom: 2px solid #e0c8a0;
-}
+  .interiors-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
 
-.wardrobe-content {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
+  .interiors-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  }
 
-.wardrobe-content h2 {
-  font-size: 1.8rem;
-  color: #2f2f2f;
-  font-weight: 700;
-}
+  .interiors-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
 
-.wardrobe-content p {
-  font-size: 1.05rem;
-  color: #555;
-  line-height: 1.7;
-}
+  .interiors-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex: 1;
+    animation: fadeInUp 0.8s ease both;
+    text-align: center;
+  }
 
-.wardrobe-tagline {
-  align-self: flex-start;
-  padding: 0.4rem 1rem;
-  background: linear-gradient(135deg, #af8750, #926b3f);
-  color: white;
-  border-radius: 15px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  animation: floatBadge 2.5s ease-in-out infinite;
-}
+  .interiors-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2b1f14;
+  }
 
-@keyframes fadeInWardrobeIntro {
-  0% { opacity: 0; transform: translateY(30px); }
-  100% { opacity: 1; transform: translateY(0); }
-}
+  .interiors-content p {
+    font-size: 1rem;
+    color: #4d3a29;
+    line-height: 1.6;
+  }
 
-@keyframes floatBadge {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-4px); }
-}
+    .interiors-tagline {
+    margin-top: auto;
+    background: linear-gradient(to right, #af8750, #926b3f);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    align-self: center; /* ✅ Centered horizontally */
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    animation: floatBadge 2.8s ease-in-out infinite;
+    }
+
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes floatBadge {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
+
+  @media (max-width: 600px) {
+    .interiors-content h2 {
+      font-size: 1.3rem;
+    }
+
+    .interiors-content p {
+      font-size: 0.95rem;
+    }
+  }
 </style>
-
 </head>
 
 <body>
 
-<main class="kitchen-products">
+  <main class="interiors-section">
 
-<section class="kitchen-intro">
-  <h3>MODULAR KITCHENS BY OM MANJUNATH INTERIORS</h3>
-  <h4>Smart Designs. Quality Build. Personalized for Your Home.</h4>
-  <p>At <strong>Om Manjunath Interiors</strong>, we believe the kitchen is the heart of every home. It’s where meals are prepared, memories are made, and families come together. Whether you have a compact apartment or a spacious home, our <strong>modular kitchen solutions</strong> are designed to suit your needs, lifestyle, and budget.</p>
-  <p>We specialize in <strong>practical, durable, and elegant kitchens</strong>—crafted for everyday living and built to last.</p>
-</section>
-
-<section class="product-box">
-  <div class="product-image">
-    <img src="wp-content/uploads/2025/05/alex-tyson-llp_Jd7vruA-unsplash.jpg" alt="Straight Kitchen">
-  </div>
-  <div class="product-info">
-    <h2>Straight Kitchen</h2>
-    <p>Perfect for small homes or studio apartments, the Straight Kitchen places all cabinets and appliances along a single wall. It’s an efficient design that offers maximum function with minimum space.</p>
-    <span class="tagline">Simple - Sleek - Space-Saving</span>
-  </div>
-</section>
-
-<section class="product-box">
-  <div class="product-image">
-    <img src="wp-content/uploads/2025/05/alex-tyson-0pBcv2WV_AA-unsplash.jpg" alt="U-Shaped Kitchen">
-  </div>
-  <div class="product-info">
-    <h2>U-Shaped Kitchen</h2>
-    <p>With counters on three sides, the U-Shaped Kitchen gives you plenty of room to cook, store, and work. It’s perfect for larger spaces and for those who need a highly functional kitchen for daily use.</p>
-    <span class="tagline">Spacious - Organized Efficient</span>
-  </div>
-</section>
-
-<section class="product-box">
-  <div class="product-image">
-    <img src="wp-content/uploads/2025/05/steven-ungermann-SytnFBoIOxg-unsplash.jpg" alt="L-Shaped Kitchen">
-  </div>
-  <div class="product-info">
-    <h2>L-Shaped Kitchen</h2>
-    <p>Designed using two adjoining walls, the L-Shaped Kitchen makes great use of corner space and fits easily into both small and large rooms. It allows free movement and works well for open-plan layouts.</p>
-    <span class="tagline">Flexible - Functional - Family-Friendly</span>
-  </div>
-</section>
-
-<section class="product-box">
-  <div class="product-image">
-    <img src="wp-content/uploads/2025/05/jonathan-ikemura-4LJMOpAHEIc-unsplash.jpg" alt="Island Kitchen">
-  </div>
-  <div class="product-info">
-    <h2>Island Kitchen</h2>
-    <p>An Island Kitchen features a central work surface that can be used for meal prep, dining, or storage. Best suited for open or larger kitchens, this layout brings people together while making your kitchen the highlight of your home.</p>
-    <span class="tagline">Modern - Multi Functional - Stylish</span>
-  </div>
-</section>
-
-<section class="product-box">
-  <div class="product-image">
-    <img src="wp-content/uploads/2025/05/khanh-do-GH6JjNFALhE-unsplash.jpg" alt="Parallel Kitchen">
-  </div>
-  <div class="product-info">
-    <h2>Parallel Kitchen</h2>
-    <p>Also known as a corridor kitchen, the Parallel Kitchen has two counters facing each other. It creates a smooth workflow, with separate zones for cooking and washing. Ideal for narrow or medium-sized kitchens.</p>
-    <span class="tagline">Compact - Practical - High-Performance</span>
-  </div>
-</section>
-
-<section class="product-box">
-  <div class="product-image">
-    <img src="wp-content/uploads/2025/05/brett-jordan-OCFgfOu_6Ko-unsplash.jpg" alt="Dry and Wet Kitchen">
-  </div>
-  <div class="product-info">
-    <h2>Dry & Wet Kitchen</h2>
-    <p>Separate your light and heavy cooking with Dry & Wet Kitchen Zones.</p>
-    <ul>
-      <li><strong>Dry Area:</strong> Used for light cooking, snacks, baking, or serving</li>
-      <li><strong>Wet Area:</strong> Handles daily cooking, cleaning, and strong aromas</li>
-    </ul>
-    <p>This setup keeps your main area fresh and clean. Especially useful in modern Indian homes.</p>
-    <span class="tagline">Clean Cooking - Smart Planning</span>
-  </div>
-</section>
-
-<section class="wardrobe-section">
-
-  <div class="wardrobe-intro">
-    <h3>WARDROBES BY OM MANJUNATH INTERIORS</h3>
-    <h4>Smart Storage. Stylish Designs. Built for Everyday Living.</h4>
-    <p>At <strong>Om Manjunath Interiors</strong>, we design wardrobes that blend style with practicality...</p>
-    <p>Whether you need space-saving solutions or luxury finishes, our wardrobes are made to fit your lifestyle, your space, and your storage needs.</p>
-  </div>
-
-  <div class="wardrobe-grid">
-
-    <div class="wardrobe-card">
-      <div class="wardrobe-image">
-        <img src="wp-content/uploads/2025/05/billy-jo-catbagan-SseNV6Ycb1c-unsplash.jpg" alt="Walk-In Closet">
-      </div>
-      <div class="wardrobe-content">
-        <h2>Walk-In Closet</h2>
-        <p>A Walk-In Closet offers the ultimate in storage comfort. Step into a space designed just for you, with shelves, drawers, and hanging units.</p>
-        <div class="wardrobe-tagline">Spacious - Organized - Luxurious</div>
-      </div>
+    <div class="interiors-intro">
+      <h3>COMMERCIAL INTERIORS</h3>
+      <h4>Functional Spaces. Impressive Designs. Tailored to Your Brand.</h4>
+      <p>At <strong>Om Manjunath Interiors</strong>, we craft commercial spaces that inspire productivity, reflect your values, and make lasting impressions.</p>
+      <p>From elegant facades to smart partitions, we deliver turnkey solutions across design, civil, and branding needs.</p>
     </div>
 
-    <div class="wardrobe-card">
-      <div class="wardrobe-image">
-        <img src="wp-content/uploads/2025/05/450638608828230068145.jpg" alt="Sliding Wardrobe">
+    <div class="interiors-grid">
+
+      <!-- Facade Designs -->
+      <div class="interiors-card">
+        <div class="interiors-image">
+          <img src="wp-content/uploads/2025/08/Commercial_Interiors/Facade_design.jpg" alt="Facade Designs">
+        </div>
+        <div class="interiors-content">
+          <h2>Facade Designs</h2>
+          <p>Transform your exteriors with striking and durable solutions.
+            We use modern materials like ACP, glass, stone, and cladding.
+            Our designs ensure both visual appeal and long-lasting protection.
+            Ideal for homes, offices, and commercial spaces.Upgrade your facade with elegance and strength.</p>
+          <div class="interiors-tagline">Modern - Elegant - Durable</div>
+        </div>
       </div>
-      <div class="wardrobe-content">
-        <h2>Sliding Wardrobes</h2>
-        <p>Perfect for compact rooms. Our sliding doors use premium Aristo systems and come in finishes like mirrors, glass, and laminates.</p>
-        <div class="wardrobe-tagline">Smooth - Space-Saving - Striking</div>
+
+      <!-- Work Stations -->
+      <div class="interiors-card">
+        <div class="interiors-image">
+          <img src="wp-content/uploads/2025/08/Commercial_Interiors/workstation.avif" alt="Work Stations">
+        </div>
+        <div class="interiors-content">
+          <h2>Work Stations</h2>
+          <p>Enhance your workspace with custom desks and cubicles.
+            Designed for team collaboration and individual focus.
+            Ergonomic features support comfort and well-being.
+            Boost productivity with smart, functional layouts.
+            Perfect for modern office environments.</p>
+          <div class="interiors-tagline">Modular - Efficient - Comfortable</div>
+        </div>
       </div>
+
+      <!-- Signage Boards -->
+      <div class="interiors-card">
+        <div class="interiors-image">
+          <img src="wp-content/uploads/2025/08/Commercial_Interiors/office-indoor-signage.jpg" alt="Signage Boards">
+        </div>
+        <div class="interiors-content">
+          <h2>Signage Boards</h2>
+          <p>Make your brand stand out with striking signage solutions.
+            We offer LED, acrylic, backlit, and custom 3D signs.
+            Designed to capture attention and elevate visibility.
+            Perfect for retail, offices, and outdoor branding.
+            Build strong impressions with every glance.</p>
+          <div class="interiors-tagline">Visible - Stylish - Branded</div>
+        </div>
+      </div>
+
+      <!-- Civil Works -->
+      <div class="interiors-card">
+        <div class="interiors-image">
+          <img src="wp-content/uploads/2025/08/Commercial_Interiors/civil_work.jpg" alt="Civil Works">
+        </div>
+        <div class="interiors-content">
+          <h2>Civil Works</h2>
+          <p>From foundations to ceilings, we handle it all with care.
+            Walls, structures, and interior alterations done right.
+            Seamless execution from planning to final finish.
+            Precision and quality at every stage of the process.
+            Reliable solutions for residential and commercial projects.</p>
+          <div class="interiors-tagline">Structured - Reliable - Expert</div>
+        </div>
+      </div>
+
+      <!-- Glass Partitions -->
+      <div class="interiors-card">
+        <div class="interiors-image">
+          <img src="wp-content/uploads/2025/08/Commercial_Interiors/Glass-Partitions.jpg" alt="Glass Partitions">
+        </div>
+        <div class="interiors-content">
+          <h2>Glass Partitions</h2>
+          <p>Create defined spaces without losing openness.
+            Our transparent and frosted dividers offer subtle separation.
+            Maintain natural light and visual continuity.
+            Ideal for modern homes and workspaces.
+            Stylish, functional, and space-enhancing solutions.</p>
+          <div class="interiors-tagline">Sleek - Private - Light-Filled</div>
+        </div>
+      </div>
+
+      <!-- Windows -->
+      <div class="interiors-card">
+        <div class="interiors-image">
+          <img src="wp-content/uploads/2025/08/Commercial_Interiors/windows_.jpg" alt="Windows">
+        </div>
+        <div class="interiors-content">
+          <h2>Windows</h2>
+          <p>Upgrade your space with stylish, insulated window systems.
+            Choose from aluminum, uPVC, or wooden frames.
+            Designed for comfort, durability, and energy efficiency.
+            Blends seamlessly with modern and classic interiors.
+            Perfect balance of function and aesthetic appeal.</p>
+          <div class="interiors-tagline">Ventilated - Stylish - Secure</div>
+        </div>
+      </div>
+
     </div>
-
-    <div class="wardrobe-card">
-      <div class="wardrobe-image">
-        <img src="wp-content/uploads/2025/05/hinged-wardrobe-design-versatility_600x600.webp" alt="Hinged Wardrobe">
-      </div>
-      <div class="wardrobe-content">
-        <h2>Hinged Wardrobes</h2>
-        <p>Combining traditional door function with modern design. Choose from handle or push-to-open options for a clean and elegant look.</p>
-        <div class="wardrobe-tagline">Classic Look - Modern Function</div>
-      </div>
-    </div>
-
-  </div>
-</section>
+  </main>
 
 
-</main>
-
-<script>
-// Reveal animations on scroll with smooth side slides
-function animateOnScroll() {
-  const boxes = document.querySelectorAll('.product-box');
-  boxes.forEach(box => {
-    const image = box.querySelector('.product-image');
-    const info = box.querySelector('.product-info');
-    const rect = box.getBoundingClientRect();
-    if (rect.top < window.innerHeight - 100) {
-      image.classList.add('show-slide');
-      info.classList.add('show-slide');
-    }
-  });
-}
-window.addEventListener('scroll', animateOnScroll);
-window.addEventListener('load', animateOnScroll);
-</script>
 
 
 
