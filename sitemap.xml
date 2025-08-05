@@ -1,33 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://ommanjunathinteriors.com/</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
   </url>
+
   <url>
     <loc>https://ommanjunathinteriors.com/index.htm</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
+
   <url>
     <loc>https://ommanjunathinteriors.com/about.htm</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
+
   <url>
     <loc>https://ommanjunathinteriors.com/process.htm</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
+
   <url>
     <loc>https://ommanjunathinteriors.com/kitchen.htm</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
+
   <url>
     <loc>https://ommanjunathinteriors.com/wardrobes.htm</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
+
   <url>
     <loc>https://ommanjunathinteriors.com/turnkey.htm</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
+
   <url>
     <loc>https://ommanjunathinteriors.com/interiors.htm</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
+
   <url>
     <loc>https://ommanjunathinteriors.com/projects.htm</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
+
   <url>
     <loc>https://ommanjunathinteriors.com/contact.htm</loc>
+    <lastmod>2025-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
   </url>
+
 </urlset>
